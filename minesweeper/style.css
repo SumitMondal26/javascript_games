@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background: rgb(48, 41, 41);
+
+}
+.grid
+{
+    position: relative;
+    left: 30%;
+    border: 1px white solid;
+    height: 502px;
+    width: 502px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.square
+{
+    border: 1px white solid; 
+    height: 50px;
+    width: 50px;
+     
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font: bolder;
+}
+.mine
+{
+    position: relative;
+    background: rgb(215, 27, 27);
+    z-index: 5;
+}
+.cover
+{
+    position: relative;
+    background: rgb(81, 81, 81);
+    z-index: 10;
+}
+.edge
+{
+    position: relative;
+    background: rgb(0, 0, 0);
+   
+}

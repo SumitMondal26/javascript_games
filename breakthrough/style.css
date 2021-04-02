@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+  }
+.grid
+{
+    position: absolute;
+    height: 400px;
+    width: 505px;
+    border: 1px white dotted;
+    border-radius: 5px;
+}
+.block
+{
+    position: absolute;
+    height: 20px;
+    width: 85px;
+    border: 1px black solid;
+    background-color: rgb(211, 0, 0);
+    border-radius: 5px;
+
+}
+.user
+{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    border: 1px black double;
+    border-radius: 5px;
+    background-color: rgb(122, 136, 193);
+
+}
+.ball
+{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 1px black solid;
+    background-color: rgb(0, 215, 129);
+}
+.start
+{
+    position: absolute;
+    bottom: 180px;
+    height: 50px;
+    width:50px;
+}
